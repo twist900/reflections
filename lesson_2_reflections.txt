@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize the repository an empty git repository is created. I need it to create .git directory in which meta data
+and snapshots of different versions of the tracked files will be stored. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area holds the pointer to the changed files, it doesnt hold the files themselves. The changes made to the files which
+are in the staging area are not yet commited and thus not yet in the git repository. The staging area helps to logically combine files into commits.
