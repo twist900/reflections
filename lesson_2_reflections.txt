@@ -6,3 +6,13 @@ and snapshots of different versions of the tracked files will be stored.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area holds the pointer to the changed files, it doesnt hold the files themselves. The changes made to the files which
 are in the staging area are not yet commited and thus not yet in the git repository. The staging area helps to logically combine files into commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add to the staging area only those files that are logically tied.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Changes made on a branch do not influence the code made on other branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merge might not always carry out the merging correctly but at the same time it saves time. Merging manually helps understand the problem and
+resolve the conflict in the intended by developers way.
